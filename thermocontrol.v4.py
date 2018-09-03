@@ -199,9 +199,9 @@ while (1):
 		targetTemp = getTargetTemp(ciclo,l)
 		clock_begin= clock_end
 
-        maior= termopar1
-	if (termopar2 > termopar1):
-		maior= termopar2
+        maior= termopar3
+	if (termopar4 > termopar3):
+		maior= termopar4
 	
         if (maior < (targetTemp- 0.5) ):
 		print('Ligar a resistencia')
